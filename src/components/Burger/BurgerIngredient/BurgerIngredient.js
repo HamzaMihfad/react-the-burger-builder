@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './BurgerIngridient.css';
+import './BurgerIngredient.css';
 
-const burgerIngridient = (props) => {
+const burgerIngredient = (props) => {
 	let ingridient = null;
 
 	switch (props.type) {
@@ -42,4 +42,4 @@ const burgerIngridient = (props) => {
 	return ingridient;
 }
 
-export default burgerIngridient;
+export default burgerIngredient;
